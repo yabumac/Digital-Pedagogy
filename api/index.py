@@ -9,12 +9,9 @@ from telegram.ext import ApplicationBuilder, CommandHandler, ContextTypes
 BOT_TOKEN = os.getenv("BOT_TOKEN")
 
 COURSES = [
-    {"name": "Edify Ethiopia Overview ", "url": "https://app.mindsmith.ai/learn/cmg7jrxkv01bvlb04ses7x8i6"},
-    {"name": "Discovering Your Values: A Guide to Good Choices", "url": "https://app.mindsmith.ai/learn/cmffk2f3303ubk104jqghqex2"},
-    {"name": "Effective Teaching Methodologies for Early Childhood Education in Ethiopia", "url": "https://app.mindsmith.ai/learn/cmmduqj3i03gsl504srt6078y"},
-    {"name": "Assessment & Classroom Management for Ethiopian Primary Teachers", "url": "https://app.mindsmith.ai/learn/cmo4cwxj4003p04l5gp140980"},
-    {"name": "AI for Teaching & Learning", "url": "https://app.mindsmith.ai/learn/cmsjcj6r9000304lazku7dqc2"},
-    {"name": "Digital Pedagogy Course", "url": "https://app.mindsmith.ai/learn/cmvz626c7000008l00xqa8ydb"},
+    {"name": "Digital Pedagogy", "url": "https://app.mindsmith.ai/learn/cmvz626c7000008l00xqa8ydb"},
+    {"name": "Different Teaching-Learning Methods for Early Grade Numeracy", "url": "https://app.mindsmith.ai/learn/cmwp4qd3n006402mkxxefsy9p"},
+    {"name": "Different Ways of Using Flash Cards for Early Grade Numeracy", "url": "https://app.mindsmith.ai/learn/cmwp77a15000008l9fsf5as3x"},
 ]
 
 app = FastAPI()
